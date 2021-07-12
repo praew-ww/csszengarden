@@ -1,0 +1,169 @@
+@import "https://fonts.googleapis.com/css?family=Ubuntu|Lora";
+@import "https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong";
+@import "https://fonts.googleapis.com/css?family=Libre Baskerville";
+@import "https://fonts.googleapis.com/css?family=Share";
+section header {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Baskerville";
+  color: #051747;
+  padding: 30px 0px 30px 0px;
+  background: url("http://nebula.wsimg.com/6ee6db85ceca726a1e8b6c48b74df8ce?AccessKeyId=1811B3FD9565EC2D5E13&disposition=0&alloworigin=1");
+  background-color: #f8f8f8;
+  background-size: 450px 500px;
+}
+
+body {
+  background-color: white;
+}
+
+.participation,
+.requirements {
+  color: #551705;
+  border: 2px solid black;
+  outline: #051747;
+  padding: 40px;
+  text-align: right;
+  background-color: #e9d6c5;
+}
+.participation h3,
+.requirements h3 {
+  background-color: #e0ae50;
+}
+.participation a:link,
+.requirements a:link {
+  color: #1b6363;
+  text-shadow: paleturquoise;
+}
+.participation a:hover,
+.requirements a:hover {
+  color: #f4ece5;
+}
+
+.benefits,
+.explanation,
+.preamble {
+  border: 2px solid black;
+  outline: #051747;
+  padding: 40px;
+}
+.benefits h3,
+.explanation h3,
+.preamble h3 {
+  background-color: #acc8d8;
+}
+
+div {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #d0e2e7;
+}
+div h1,
+div h2 {
+  text-indent: 60px;
+  padding: 30px 0px 30px 0px;
+  text-transform: uppercase;
+  color: #051747;
+  font-size: 50px;
+  align-self: center;
+  text-shadow: 3px 3px 3px #ababab;
+}
+div h3 {
+  font-size: 30px;
+  font-family: "Share";
+}
+div .summary {
+  text-indent: 60px;
+  padding: 50px 150px 50px 150px;
+  text-align: center;
+}
+div .summary p {
+  font-family: "Sofia", sans-serif;
+  padding: 50px 100px 0px 100px;
+  font-size: 30px;
+  text-shadow: gray;
+}
+div .summary a:link {
+  color: #50068b;
+}
+div .summary a:hover {
+  color: gray;
+}
+div .preamble,
+div .main.supporting {
+  text-indent: 60px;
+  padding: 50px 400px 50px 350px;
+  background-color: #e7e8ed;
+}
+div .preamble p,
+div .main.supporting p {
+  font-size: 20px;
+  font-family: "Share";
+}
+
+aside {
+  line-height: 2.5;
+  font-family: "Share";
+}
+aside .zen-resources {
+  font-family: "Share";
+  font-weight: bold;
+  color: #551705;
+  position: fixed;
+  top: 300px;
+  left: 0;
+  height: 300px;
+  overflow: hidden;
+  background-color: #ffa993;
+  box-shadow: 5px 10px #b13002;
+  border: 2px solid;
+  padding: 20px;
+  width: 270px;
+  resize: horizontal;
+  overflow: auto;
+}
+aside .zen-resources a {
+  display: block;
+  background-color: #fac552;
+}
+aside a {
+  display: block;
+  border-radius: 10px;
+  background-color: #a1d0e2;
+}
+aside a:hover {
+  background-color: #e9d6c5;
+  color: pink;
+}
+aside .wrapper {
+  font-family: "Share";
+  border-radius: 15px;
+  position: absolute;
+  text-align: left;
+  top: 1400px;
+  right: 20px;
+  width: 300px;
+  height: 200px;
+}
+aside .wrapper a:link {
+  color: #502604;
+  text-indent: 60px;
+}
+
+footer {
+  overflow: hidden;
+  background-color: #051747;
+}
+footer a {
+  float: left;
+  display: block;
+  color: #f4ece5;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+footer a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
